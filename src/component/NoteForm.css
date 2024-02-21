@@ -1,0 +1,38 @@
+.note-form {
+    margin-bottom: 20px;
+  }
+  
+  .note-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .note-form form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .note-form input[type="text"] {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    flex-grow: 1;
+  }
+  
+  .note-form input[type="text"]:focus {
+    outline: none;
+    border-color: #61dafb;
+  }
+  
+  .note-form button {
+    padding: 0.5rem 1rem;
+    background-color: #61dafb;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .note-form button:hover {
+    background-color: #4fa3c4;
+  }
+  
